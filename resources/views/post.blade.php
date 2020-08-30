@@ -8,9 +8,8 @@
 </head>
 
 <body>
-    <h1>Test Doc Here</h1>
-    <h2>{{!! $name !!}}</h2>
-    <h2>{{ $name }}</h2>
+    <h1>My Post</h1>
+    <p>{{$post}}</p>
 </body>
 
 </html>

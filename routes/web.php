@@ -17,10 +17,19 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('test1', function () {
-    $name = request('name');
+// Route::get('/posts/{post}', function ($post) {
+//     $posts = [
+//         'firstpost' => 'this is first post',
+//         'secondpost' => 'this is second post'
+//     ];
 
-    return view('test', [
-        'name' => $name
-    ]);
-});
+//     if (!array_key_exists($post, $posts)) {
+//         abort(404);
+//     }
+
+//     return view('post', [
+//         'post' => $posts[$post] ?? 'Nothing :P'
+//     ]);
+// });
+
+Route::get('/posts/{post}', 'PostsController@show');

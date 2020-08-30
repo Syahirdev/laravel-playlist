@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    "bootstrap": true,
+    "config": true,
+    "public": true,
+    "storage": true,
+    "tests": true,
+    "vendor": true,
+    ".editorconfig": true,
+    ".env.example": true,
+    ".gitattributes": true,
+    ".gitignore": true,
+    ".styleci.yml": true,
+    "artisan": true,
+    "composer.json": true,
+    "composer.lock": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "phpunit.xml": true,
+    "README.md": true,
+    "server.php": true,
+    "webpack.mix.js": true
+  }
+}
